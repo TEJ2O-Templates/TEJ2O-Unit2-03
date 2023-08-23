@@ -2,7 +2,7 @@
  *
  * Created by: Mr. Coxall
  * Created on: Sep 2020
- * This This program does basic math
+ * This program does basic math
 */
 
 basic.pause(1000)
