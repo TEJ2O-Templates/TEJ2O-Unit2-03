@@ -1,10 +1,16 @@
 """
 Created by: Mr. Coxall
 Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+This module does basic math
 """
 
 from microbit import *
 
 
-display.scroll("Hello, World!")
+sleep(1000)
+
+# addition
+display.scroll('40 + 2 = ' + (40 + 2))
+display.show(Image.Happy)
+sleep(100)
+display.clear()
