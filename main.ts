@@ -5,6 +5,7 @@
  * This program does basic math
 */
 
+basic.clearScreen()
 basic.pause(1000)
 
 // addition
@@ -28,6 +29,12 @@ basic.clearScreen()
 // divide
 basic.showString('(80 / 2) + 2 = ' + (80 / 2 + 2).toString())
 basic.showIcon(IconNames.Happy)
+basic.pause(100)
+basic.clearScreen()
+
+// incorrect way to do exponents
+basic.showString('10 + 2^5 = ' + (10 + 2 ^ 5).toString())
+basic.showIcon(IconNames.Sad)
 basic.pause(100)
 basic.clearScreen()
 
