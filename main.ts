@@ -5,6 +5,7 @@
  * This program does basic math
 */
 
+basic.clearScreen()
 basic.pause(1000)
 
 // addition
