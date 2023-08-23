@@ -2,7 +2,37 @@
  *
  * Created by: Mr. Coxall
  * Created on: Sep 2020
- * This program ...
+ * This This program does basic math
 */
 
-basic.showString('Hello, World!')
+basic.pause(1000)
+
+// addition
+basic.showString('40 + 2 = ' + (40 + 2))
+basic.showIcon(IconNames.Happy)
+basic.pause(100)
+basic.clearScreen()
+
+// subtraction
+basic.showString('45 - 3 = ' + (45 - 3))
+basic.showIcon(IconNames.Happy)
+basic.pause(100)
+basic.clearScreen()
+
+// multiply
+basic.showString('2 + 8 x 5 = ' + (2 + 8 * 5))
+basic.showIcon(IconNames.Happy)
+basic.pause(100)
+basic.clearScreen()
+
+// divide
+basic.showString('(80 / 2) + 2 = ' + (80 / 2 + 2))
+basic.showIcon(IconNames.Happy)
+basic.pause(100)
+basic.clearScreen()
+
+// exponent
+basic.showString('10 + 2^5 = ' + (10 + 2 ** 5))
+basic.showIcon(IconNames.Happy)
+basic.pause(100)
+basic.clearScreen()
